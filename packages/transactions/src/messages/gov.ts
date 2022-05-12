@@ -1,7 +1,7 @@
 import {
   createMsgVote as protoCreateMsgVote,
   createTransaction,
-} from '@tiendn/proto'
+} from 'tiendn/proto'
 
 import {
   createEIP712,
@@ -10,7 +10,7 @@ import {
   generateTypes,
   createMsgVote,
   MSG_VOTE_TYPES,
-} from '@tiendn/eip712'
+} from 'tiendn/eip712'
 
 import { Chain, Fee, Sender } from './common'
 

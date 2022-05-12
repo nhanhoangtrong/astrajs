@@ -1,5 +1,5 @@
 {
-  "name": "@tiendn/transactions",
+  "name": "tiendn/transactions",
   "description": "Transactions generator for EVMOS",
   "version": "0.3.0",
   "license": "MIT",
@@ -26,10 +26,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@tiendn/eip712": "^0.2.1",
-    "@tiendn/proto": "^0.1.16",
+    "tiendn/eip712": "^0.2.1",
+    "tiendn/proto": "^0.1.16",
     "@types/node": "^17.0.21",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
-  }
+  },
+  "gitHead": "75ed655936ca6937fd00383facd695a9d78adf96"
 }

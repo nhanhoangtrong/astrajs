@@ -4,19 +4,19 @@
     "baseUrl": ".",
     "paths": {
         "evmosjs":["packages/evmosjs"],
-        "@tiendn/address-converter": [
+        "tiendn/address-converter": [
           "./packages/address-converter/*"
         ],
-        "@tiendn/eip712": [
+        "tiendn/eip712": [
           "packages/eip712"
         ],
-        "@tiendn/proto": [
+        "tiendn/proto": [
           "packages/proto"
         ],
-        "@tiendn/provider": [
+        "tiendn/provider": [
           "./packages/provider/*"
         ],
-        "@tiendn/transactions": [
+        "tiendn/transactions": [
           "./packages/transactions/*"
         ]
     }
