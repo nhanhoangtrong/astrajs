@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.8](https://github.com/AstraProtocol/evmosjs/compare/evmosjs@0.2.7...evmosjs@0.2.8) (2022-05-12)
+
+### Bug Fixes
+
+* package name ([9073157](https://github.com/AstraProtocol/evmosjs/commit/9073157dc04eeaecfcfadf40def227139d5c2f40))
+* update package name ([ce6e44e](https://github.com/AstraProtocol/evmosjs/commit/ce6e44ecb39ef7f7f154f2350da7432e89dca6b8))
+
 ## [0.2.7](https://github.com/AstraProtocol/evmosjs/compare/evmosjs@0.2.6...evmosjs@0.2.7) (2022-05-12)
 
 ### Bug Fixes

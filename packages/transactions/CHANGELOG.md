@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2022-05-12)
+
+### Bug Fixes
+
+* package name ([9073157](https://github.com/AstraProtocol/evmosjs/commit/9073157dc04eeaecfcfadf40def227139d5c2f40))
+* update org ([55c8b31](https://github.com/AstraProtocol/evmosjs/commit/55c8b31db011d1891d5a95c525f5fdc66c4b6143))
+* update package name ([ce6e44e](https://github.com/AstraProtocol/evmosjs/commit/ce6e44ecb39ef7f7f154f2350da7432e89dca6b8))
+
+### Features
+
+* added multiple transactions support for withdraw rewards ([#26](https://github.com/AstraProtocol/evmosjs/issues/26)) ([9cddd62](https://github.com/AstraProtocol/evmosjs/commit/9cddd62bdeec00d50791df8fbaa0c1301d08d4ca))
+* delegate message ([#15](https://github.com/AstraProtocol/evmosjs/issues/15)) ([1e68b10](https://github.com/AstraProtocol/evmosjs/commit/1e68b10d107edef6d54358447cee60af84d46053))
+* evmos.me functions migration ([#10](https://github.com/AstraProtocol/evmosjs/issues/10)) ([c0fbd87](https://github.com/AstraProtocol/evmosjs/commit/c0fbd87f6979e07420daf7344ea392c284a878cd))
+* ibc transactions added ([#14](https://github.com/AstraProtocol/evmosjs/issues/14)) ([3809f28](https://github.com/AstraProtocol/evmosjs/commit/3809f289e4e54c5013d3027578bde5c244ec8736))
+* redelegate/undelegate/claim transactions added ([#23](https://github.com/AstraProtocol/evmosjs/issues/23)) ([3b536c3](https://github.com/AstraProtocol/evmosjs/commit/3b536c321f7c304f79d121af346f16d6cca74b47))
+* use the same naming style across all packages ([#24](https://github.com/AstraProtocol/evmosjs/issues/24)) ([348db46](https://github.com/AstraProtocol/evmosjs/commit/348db46ac299655257addc7a381e4ac1eb88f20a))
+* vote on proposals ([#17](https://github.com/AstraProtocol/evmosjs/issues/17)) ([d0db5f9](https://github.com/AstraProtocol/evmosjs/commit/d0db5f9d2fba521a3cd20192d8d24c54f7f7fa4c))
+
 # 0.3.0 (2022-05-12)
 
 ### Bug Fixes
