@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/AstraProtocol/evmosjs/compare/@tharsis/address-converter@0.1.7...@tharsis/address-converter@0.2.0) (2022-05-12)
+
+### Features
+
+* support convert astra-eth and eth-astra ([2a5c759](https://github.com/AstraProtocol/evmosjs/commit/2a5c75980b2d201df9d21369bca08fc037dd58dd))
+
 ## [0.1.7](https://github.com/tharsis/evmosjs/compare/@tharsis/address-converter@0.1.6...@tharsis/address-converter@0.1.7) (2022-03-09)
 
 ### Features
