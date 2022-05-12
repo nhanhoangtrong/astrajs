@@ -4,19 +4,19 @@
     "baseUrl": ".",
     "paths": {
         "evmosjs":["packages/evmosjs"],
-        "tiendn/address-converter": [
+        "astrajs-address-converter": [
           "./packages/address-converter/*"
         ],
-        "tiendn/eip712": [
+        "astrajs-eip712": [
           "packages/eip712"
         ],
-        "tiendn/proto": [
+        "astrajs-proto": [
           "packages/proto"
         ],
-        "tiendn/provider": [
+        "astrajs-provider": [
           "./packages/provider/*"
         ],
-        "tiendn/transactions": [
+        "astrajs-transactions": [
           "./packages/transactions/*"
         ]
     }

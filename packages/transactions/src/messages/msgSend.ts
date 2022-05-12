@@ -1,4 +1,4 @@
-import { createMsgSend as protoMsgSend, createTransaction } from 'tiendn/proto'
+import { createMsgSend as protoMsgSend, createTransaction } from 'astrajs-proto'
 
 import {
   createEIP712,
@@ -7,7 +7,7 @@ import {
   generateTypes,
   createMsgSend,
   MSG_SEND_TYPES,
-} from 'tiendn/eip712'
+} from 'astrajs-eip712'
 
 import { Chain, Fee, Sender } from './common'
 

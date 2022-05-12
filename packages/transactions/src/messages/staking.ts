@@ -6,7 +6,7 @@ import {
   MsgWithdrawDelegatorRewardProtoInterface,
   createTransaction,
   createTransactionWithMultipleMessages,
-} from 'tiendn/proto'
+} from 'astrajs-proto'
 
 import {
   createEIP712,
@@ -23,7 +23,7 @@ import {
   MSG_WITHDRAW_DELEGATOR_REWARD_TYPES,
   createMsgWithdrawDelegatorReward,
   MsgWithdrawDelegatorRewardInterface,
-} from 'tiendn/eip712'
+} from 'astrajs-eip712'
 
 import { Chain, Fee, Sender } from './common'
 

@@ -3,7 +3,7 @@ import {
   createAnyMessage,
   protoTxNamespace,
   MessageGenerated,
-} from 'tiendn/proto'
+} from 'astrajs-proto'
 
 export function createTxRawEIP712(
   body: protoTxNamespace.txn.TxBody,

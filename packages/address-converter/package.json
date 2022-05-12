@@ -1,5 +1,5 @@
 {
-  "name": "tiendn/address-converter",
+  "name": "astrajs-address-converter",
   "description": "Address converter, convert ETH address to Ethermint/evmos address.",
   "version": "0.2.0",
   "license": "MIT",

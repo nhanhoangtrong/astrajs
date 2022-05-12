@@ -1,5 +1,5 @@
 {
-  "name": "tiendn/eip712",
+  "name": "astrajs-eip712",
   "description": "EIP712 transaction creator for EVMOS.",
   "version": "0.2.1",
   "license": "MIT",

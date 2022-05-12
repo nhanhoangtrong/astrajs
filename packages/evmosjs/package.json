@@ -26,11 +26,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "tiendn/address-converter": "^0.2.0",
-    "tiendn/eip712": "^0.2.1",
-    "tiendn/proto": "^0.1.16",
-    "tiendn/provider": "^0.2.4",
-    "tiendn/transactions": "^0.3.0",
+    "astrajs-address-converter": "^0.2.0",
+    "astrajs-eip712": "^0.2.1",
+    "astrajs-proto": "^0.1.16",
+    "astrajs-provider": "^0.2.4",
+    "astrajs-transactions": "^0.3.0",
     "@types/node": "^17.0.21",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
