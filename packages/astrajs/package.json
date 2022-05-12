@@ -1,7 +1,7 @@
 {
   "name": "astrajs",
   "description": "JS and TS libs for Evmos",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,11 +26,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@astraprotocol/address-converter": "^0.1.7",
+    "@astraprotocol/address-converter": "^0.2.0",
     "@astraprotocol/eip712": "^0.2.1",
     "@astraprotocol/proto": "^0.1.16",
     "@astraprotocol/provider": "^0.2.4",
-    "@astraprotocol/transactions": "^0.2.2",
+    "@astraprotocol/transactions": "^0.3.0",
     "@types/node": "^17.0.21",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
