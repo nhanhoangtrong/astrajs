@@ -1,5 +1,5 @@
 {
-  "name": "@tharsis/evmosjs",
+  "name": "@astraprotocol/astrajs",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,7 +8,10 @@
     "access": "public"
   },
   "author": "Guillermo Paoletti <guillermo.paoletti@gmail.com>",
-  "repository": "https://github.com/tharsis/evmosjs",
+  "contributors": [
+    "Tien Dao"
+  ],
+  "repository": "https://github.com/AstraProtocol/astrajs",
   "workspaces": {
     "packages": [
       "packages/*"
