@@ -3,17 +3,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-        "astrajs": [
-          "packages/astrajs"
+        "@astraprotocol/astrajs": [
+          "./packages/astrajs"
         ],
         "@astraprotocol/address-converter": [
           "./packages/address-converter/*"
         ],
         "@astraprotocol/eip712": [
-          "packages/eip712"
+          "./packages/eip712"
         ],
         "@astraprotocol/proto": [
-          "packages/proto"
+          "./packages/proto"
         ],
         "@astraprotocol/provider": [
           "./packages/provider/*"
