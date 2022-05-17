@@ -1,4 +1,4 @@
-# evmosjs
+# astrajs
 
 This project forked from [https://github.com/tharsis/evmosjs](https://github.com/tharsis/evmosjs)
 
