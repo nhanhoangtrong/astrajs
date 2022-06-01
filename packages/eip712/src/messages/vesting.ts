@@ -11,10 +11,10 @@ export const MSG_VESTING_TYPES = {
     { name: 'length', type: 'string' },
     { name: 'amount', type: 'Coin[]' },
   ],
-  Coin: [
-    { name: 'denom', type: 'string' },
-    { name: 'amount', type: 'string' },
-  ],
+  // TypeAmount: [
+  // 	{ name: 'denom', type: 'string' },
+  // 	{ name: 'amount', type: 'string' }
+  // ]
 }
 
 export function createMsgVesting(
@@ -37,7 +37,7 @@ export function createMsgVesting(
       from_address: fromAddress,
       to_address: toAddress,
       start_time: startTime,
-      // lockup_periods: lockupPeriods,
+      // lockup_periods: [],
       vesting_periods: vestingPeriods,
       merge,
     },

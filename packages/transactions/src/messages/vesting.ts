@@ -1,4 +1,7 @@
-import { createMsgVesting as protoMsgVesting, createTransaction } from 'proto'
+import {
+  createMsgVesting as protoMsgVesting,
+  createTransaction,
+} from '@astraprotocol/proto'
 
 import {
   createEIP712,
@@ -7,16 +10,13 @@ import {
   generateTypes,
   createMsgVesting,
   MSG_VESTING_TYPES,
-} from 'eip712'
+} from '@astraprotocol/eip712'
 
 import { Chain, Fee, Sender } from './common'
 
 export interface VestingSendParams {
   destinationAddress: string
   startTime: string
-  amount: string
-  denom: string
-  // lockupPeriods?: []
   vestingPeriod: {
     length: string
     amount: { denom: string; amount: string }[]
@@ -42,7 +42,6 @@ export function createMessageVesting(
     sender.accountAddress,
     params.destinationAddress,
     params.startTime,
-    // params.lockupPeriods,
     params.vestingPeriod,
   )
   const messages = generateMessage(
@@ -54,17 +53,16 @@ export function createMessageVesting(
     msg,
   )
   const eipToSign = createEIP712(types, chain.chainId, messages)
-
   // Cosmos
-  const msgSend = protoMsgVesting(
+  const msgVesting = protoMsgVesting(
     sender.accountAddress,
     params.destinationAddress,
     params.startTime,
-    // params.lockupPeriods,
     params.vestingPeriod,
   )
+
   const tx = createTransaction(
-    msgSend,
+    msgVesting,
     memo,
     fee.amount,
     fee.denom,
@@ -82,29 +80,3 @@ export function createMessageVesting(
     eipToSign,
   }
 }
-
-// eslint-disable-next-line jest/require-hook
-// createMessageVesting(
-//   {
-//     chainId: 11112,
-//     cosmosChainId: 'astra_11112-1',
-//   },
-//   {
-//     accountAddress: 'astra1cu4pyzgpy7m7q2n4gspkk02cwtvm4ttv47cqd9',
-//     sequence: 0,
-//     accountNumber: 9,
-//     pubkey: '',
-//   },
-//   {
-//     amount: '20',
-//     denom: 'aevmos',
-//     gas: '200000',
-//   },
-//   '',
-//   {
-//     amount: '0',
-//     denom: '',
-//     destinationAddress: 'astra1cu4pyzgpy7m7q2n4gspkk02cwtvm4ttv47cqd9',
-//     startTime: '',
-//   },
-// )
