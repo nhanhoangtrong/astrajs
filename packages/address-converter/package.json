@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/address-converter",
+  "name": "address-converter",
   "description": "Address converter, convert ETH address to Ethermint/astra address.",
   "version": "0.3.0",
   "license": "MIT",

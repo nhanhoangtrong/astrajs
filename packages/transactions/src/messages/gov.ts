@@ -1,7 +1,4 @@
-import {
-  createMsgVote as protoCreateMsgVote,
-  createTransaction,
-} from '@astraprotocol/proto'
+import { createMsgVote as protoCreateMsgVote, createTransaction } from 'proto'
 
 import {
   createEIP712,
@@ -10,7 +7,7 @@ import {
   generateTypes,
   createMsgVote,
   MSG_VOTE_TYPES,
-} from '@astraprotocol/eip712'
+} from 'eip712'
 
 import { Chain, Fee, Sender } from './common'
 

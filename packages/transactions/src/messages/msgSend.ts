@@ -1,7 +1,4 @@
-import {
-  createMsgSend as protoMsgSend,
-  createTransaction,
-} from '@astraprotocol/proto'
+import { createMsgSend as protoMsgSend, createTransaction } from 'proto'
 
 import {
   createEIP712,
@@ -10,7 +7,7 @@ import {
   generateTypes,
   createMsgSend,
   MSG_SEND_TYPES,
-} from '@astraprotocol/eip712'
+} from 'eip712'
 
 import { Chain, Fee, Sender } from './common'
 

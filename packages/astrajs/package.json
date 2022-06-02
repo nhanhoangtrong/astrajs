@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/astrajs",
+  "name": "astrajs",
   "description": "JS and TS libs for Astra",
   "version": "0.2.12",
   "license": "MIT",
@@ -31,11 +31,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@astraprotocol/address-converter": "^0.3.0",
-    "@astraprotocol/eip712": "^0.4.0",
-    "@astraprotocol/proto": "^0.3.1",
-    "@astraprotocol/provider": "^0.4.0",
-    "@astraprotocol/transactions": "^0.4.1",
+    "address-converter": "^0.3.0",
+    "eip712": "^0.4.0",
+    "proto": "^0.3.1",
+    "provider": "^0.4.0",
+    "transactions": "^0.4.1",
     "@types/node": "^17.0.21",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
