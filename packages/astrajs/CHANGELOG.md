@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-06-02)
+
+### Features
+
+* update name ([59a276b](https://github.com/astraprotocol/astrajs/commit/59a276b8fa1f11fd762f719f7511554b859b5b58))
+
 ## [0.2.12](https://github.com/astraprotocol/astrajs/compare/asa-astrajs@0.2.11...asa-astrajs@0.2.12) (2022-05-26)
 
 **Note:** Version bump only for package asa-astrajs

@@ -1,7 +1,7 @@
 {
   "name": "asa-astrajs",
   "description": "JS and TS libs for Astra",
-  "version": "0.2.12",
+  "version": "0.3.0",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,12 +30,12 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "asa-address-converter": "^0.3.0",
-    "asa-eip712": "^0.4.0",
-    "asa-proto": "^0.3.1",
-    "asa-provider": "^0.4.0",
-    "asa-transactions": "^0.4.1",
     "@types/node": "^17.0.21",
+    "asa-address-converter": "^0.4.0",
+    "asa-eip712": "^0.5.0",
+    "asa-proto": "^0.4.0",
+    "asa-provider": "^0.4.0",
+    "asa-transactions": "^0.5.0",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
   },
