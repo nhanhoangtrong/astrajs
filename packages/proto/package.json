@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/proto",
+  "name": "asa-proto",
   "description": "Protobuf files for Astra.",
   "version": "0.3.1",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": "https://github.com/astraprotocol/astrajs",
   "_moduleAliases": {

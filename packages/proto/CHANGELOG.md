@@ -3,13 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.1](https://github.com/astraprotocol/astrajs/compare/@astraprotocol/proto@0.3.0...@astraprotocol/proto@0.3.1) (2022-05-26)
+## [0.3.1](https://github.com/astraprotocol/astrajs/compare/asa-proto@0.3.0...asa-proto@0.3.1) (2022-05-26)
 
-**Note:** Version bump only for package @astraprotocol/proto
-
-
-
-
+**Note:** Version bump only for package asa-proto
 
 # 0.3.0 (2022-05-23)
 

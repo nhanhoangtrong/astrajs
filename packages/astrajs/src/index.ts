@@ -1,8 +1,8 @@
-import * as addressConverter from '@astraprotocol/address-converter'
-import * as eip712 from '@astraprotocol/eip712'
-import * as proto from '@astraprotocol/proto'
-import * as provider from '@astraprotocol/provider'
-import * as transactions from '@astraprotocol/transactions'
+import * as addressConverter from 'asa-address-converter'
+import * as eip712 from 'asa-eip712'
+import * as proto from 'asa-proto'
+import * as provider from 'asa-provider'
+import * as transactions from 'asa-transactions'
 
 // export all in one
 

@@ -1,7 +1,7 @@
 import {
   createMsgVesting as protoMsgVesting,
   createTransaction,
-} from '@astraprotocol/proto'
+} from 'asa-proto'
 
 import {
   createEIP712,
@@ -10,7 +10,7 @@ import {
   generateTypes,
   createMsgVesting,
   MSG_VESTING_TYPES,
-} from '@astraprotocol/eip712'
+} from 'asa-eip712'
 
 import { Chain, Fee, Sender } from './common'
 

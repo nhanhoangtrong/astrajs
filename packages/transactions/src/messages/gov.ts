@@ -1,7 +1,7 @@
 import {
   createMsgVote as protoCreateMsgVote,
   createTransaction,
-} from '@astraprotocol/proto'
+} from 'asa-proto'
 
 import {
   createEIP712,
@@ -10,7 +10,7 @@ import {
   generateTypes,
   createMsgVote,
   MSG_VOTE_TYPES,
-} from '@astraprotocol/eip712'
+} from 'asa-eip712'
 
 import { Chain, Fee, Sender } from './common'
 

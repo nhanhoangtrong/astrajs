@@ -3,22 +3,22 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-        "@astraprotocol/astrajs": [
+        "asa-astrajs": [
           "./packages/astrajs"
         ],
-        "@astraprotocol/address-converter": [
+        "asa-address-converter": [
           "./packages/address-converter/*"
         ],
-        "@astraprotocol/eip712": [
+        "asa-eip712": [
           "packages/eip712"
         ],
-        "@astraprotocol/proto": [
+        "asa-proto": [
           "packages/proto"
         ],
-        "@astraprotocol/provider": [
+        "asa-provider": [
           "./packages/provider/*"
         ],
-        "@astraprotocol/transactions": [
+        "asa-transactions": [
           "./packages/transactions/*"
         ]
     }

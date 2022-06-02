@@ -3,25 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.2.12](https://github.com/astraprotocol/astrajs/compare/@astraprotocol/astrajs@0.2.11...@astraprotocol/astrajs@0.2.12) (2022-05-26)
+## [0.2.12](https://github.com/astraprotocol/astrajs/compare/asa-astrajs@0.2.11...asa-astrajs@0.2.12) (2022-05-26)
 
-**Note:** Version bump only for package @astraprotocol/astrajs
-
-
-
-
+**Note:** Version bump only for package asa-astrajs
 
 ## 0.2.11 (2022-05-23)
 
-**Note:** Version bump only for package @astraprotocol/astrajs
+**Note:** Version bump only for package asa-astrajs
 
-## [0.2.10](https://github.com/astraprotocol/astrajs/compare/@astraprotocol/astrajs@0.2.9...@astraprotocol/astrajs@0.2.10) (2022-05-17)
+## [0.2.10](https://github.com/astraprotocol/astrajs/compare/asa-astrajs@0.2.9...asa-astrajs@0.2.10) (2022-05-17)
 
-**Note:** Version bump only for package @astraprotocol/astrajs
+**Note:** Version bump only for package asa-astrajs
 
 ## 0.2.9 (2022-05-13)
 
-**Note:** Version bump only for package @astraprotocol/astrajs
+**Note:** Version bump only for package asa-astrajs
 
 ## [0.2.8](https://github.com/astraprotocol/astrajs/compare/astrajs@0.2.7...astrajs@0.2.8) (2022-05-12)
 

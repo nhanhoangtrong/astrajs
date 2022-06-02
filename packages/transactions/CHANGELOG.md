@@ -3,13 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.4.1](https://github.com/astraprotocol/astrajs/compare/@astraprotocol/transactions@0.4.0...@astraprotocol/transactions@0.4.1) (2022-05-26)
+## [0.4.1](https://github.com/astraprotocol/astrajs/compare/asa-transactions@0.4.0...asa-transactions@0.4.1) (2022-05-26)
 
-**Note:** Version bump only for package @astraprotocol/transactions
-
-
-
-
+**Note:** Version bump only for package asa-transactions
 
 # 0.4.0 (2022-05-23)
 
@@ -23,9 +19,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * use the same naming style across all packages ([#24](https://github.com/astraprotocol/astrajs/issues/24)) ([348db46](https://github.com/astraprotocol/astrajs/commit/348db46ac299655257addc7a381e4ac1eb88f20a))
 * vote on proposals ([#17](https://github.com/astraprotocol/astrajs/issues/17)) ([d0db5f9](https://github.com/astraprotocol/astrajs/commit/d0db5f9d2fba521a3cd20192d8d24c54f7f7fa4c))
 
-## [0.3.1](https://github.com/astraprotocol/astrajs/compare/@astraprotocol/transactions@0.3.0...@astraprotocol/transactions@0.3.1) (2022-05-13)
+## [0.3.1](https://github.com/astraprotocol/astrajs/compare/asa-transactions@0.3.0...asa-transactions@0.3.1) (2022-05-13)
 
-**Note:** Version bump only for package @astraprotocol/transactions
+**Note:** Version bump only for package asa-transactions
 
 # 0.3.0 (2022-05-12)
 

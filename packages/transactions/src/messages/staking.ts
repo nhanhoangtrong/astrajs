@@ -6,7 +6,7 @@ import {
   MsgWithdrawDelegatorRewardProtoInterface,
   createTransaction,
   createTransactionWithMultipleMessages,
-} from '@astraprotocol/proto'
+} from 'asa-proto'
 
 import {
   createEIP712,
@@ -23,7 +23,7 @@ import {
   MSG_WITHDRAW_DELEGATOR_REWARD_TYPES,
   createMsgWithdrawDelegatorReward,
   MsgWithdrawDelegatorRewardInterface,
-} from '@astraprotocol/eip712'
+} from 'asa-eip712'
 
 import { Chain, Fee, Sender } from './common'
 

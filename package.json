@@ -1,12 +1,11 @@
 {
-  "name": "@astraprotocol/astrajs",
+  "name": "asa-astrajs",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "private": "false",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "author": "Guillermo Paoletti <guillermo.paoletti@gmail.com>",
   "repository": "https://github.com/astraprotocol/astrajs",

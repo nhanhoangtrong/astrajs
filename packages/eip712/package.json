@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/eip712",
+  "name": "asa-eip712",
   "description": "EIP712 transaction creator for Astra.",
   "version": "0.4.0",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": "https://github.com/astraprotocol/astrajs",
   "_moduleAliases": {

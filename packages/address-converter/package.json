@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/address-converter",
+  "name": "asa-address-converter",
   "description": "Address converter, convert ETH address to Ethermint/astra address.",
   "version": "0.3.0",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": "https://github.com/astraprotocol/astrajs",
   "_moduleAliases": {

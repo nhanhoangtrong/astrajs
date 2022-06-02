@@ -1,5 +1,5 @@
 {
-  "name": "@astraprotocol/provider",
+  "name": "asa-provider",
   "description": "Simple provider to query the Astra rest api.",
   "version": "0.4.0",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "~provider": "dist"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": "https://github.com/astraprotocol/astrajs",
   "scripts": {

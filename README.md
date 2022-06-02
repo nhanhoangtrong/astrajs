@@ -14,8 +14,8 @@ Get the account number, sequence and pubkey from an address.
 NOTE: if the address had not sent any transaction to the blockchain, the pubkey value are going to be empty.
 
 ```ts
-import { ethToEvmos } from '@astraprotocol/address-converter';
-import { generateEndpointAccount } from '@astraprotocol/provider';
+import { ethToEvmos } from 'asa-address-converter';
+import { generateEndpointAccount } from 'asa-provider';
 
 const sender = 'evmos1...'
 let destination = '0x....'
@@ -38,7 +38,7 @@ let addrRawData = await fetch(
 
 let addrData = await addRawData.json()
 
-// Response format at @astraprotocol/provider/rest/account/AccountResponse
+// Response format at asa-provider/rest/account/AccountResponse
 /*
   account: {
     '@type': string
@@ -61,7 +61,7 @@ let addrData = await addRawData.json()
 The transaction can be signed using EIP712 on Metamask and SignDirect on Keplr.
 
 ```ts
-import { createMessageSend } from '@astraprotocol/transactions'
+import { createMessageSend } from 'asa-transactions'
 
 const chain = {
     chainId: 9000,
@@ -103,9 +103,9 @@ After creating the transaction we need to send the payload to metamask so it can
 
 ```ts
 // Follow the previous step to generate the msg object
-import { evmosToEth } from '@astraprotocol/address-converter'
-import { generateEndpointBroadcast, generatePostBodyBroadcast } from '@astraprotocol/provider'
-import { createTxRawEIP712, signatureToWeb3Extension } from '@astraprotocol/transactions'
+import { evmosToEth } from 'asa-address-converter'
+import { generateEndpointBroadcast, generatePostBodyBroadcast } from 'asa-provider'
+import { createTxRawEIP712, signatureToWeb3Extension } from 'asa-transactions'
 
 // Init Metamask
 await window.ethereum.enable();
