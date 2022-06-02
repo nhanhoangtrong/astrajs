@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/astraprotocol/astrajs/compare/asa-proto@0.4.1...asa-proto@0.4.2) (2022-06-02)
+
+### Bug Fixes
+
+* aasd ([0001809](https://github.com/astraprotocol/astrajs/commit/00018099833c3f9895ed0ba6ca34eed57ee5844f))
+
 ## [0.4.1](https://github.com/astraprotocol/astrajs/compare/asa-proto@0.4.0...asa-proto@0.4.1) (2022-06-02)
 
 ### Bug Fixes
