@@ -1,7 +1,7 @@
 {
   "name": "transactions",
   "description": "Transactions generator for Astra",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,10 +31,10 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "eip712": "^0.4.0",
-    "proto": "^0.3.1",
     "@types/node": "^17.0.21",
+    "eip712": "^0.5.0",
     "link-module-alias": "^1.2.0",
+    "proto": "^0.4.0",
     "shx": "^0.3.4"
   }
 }
