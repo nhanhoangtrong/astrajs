@@ -9,3 +9,4 @@ export * from './messages/vote'
 export * from './messages/vesting'
 export * from './messages/web3Extension'
 export * from './transaction/transaction'
+// haha
