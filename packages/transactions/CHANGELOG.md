@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/astraprotocol/astrajs/compare/asa-transactions@0.5.0...asa-transactions@0.5.1) (2022-06-02)
+
+### Bug Fixes
+
+* rebuild ([f0e8555](https://github.com/astraprotocol/astrajs/commit/f0e85557cf61e14054243ff98296a1146d86ac5f))
+
 # 0.5.0 (2022-06-02)
 
 ### Bug Fixes
