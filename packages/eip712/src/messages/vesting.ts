@@ -2,10 +2,14 @@ export const MSG_VESTING_TYPES = {
   MsgValue: [
     { name: 'from_address', type: 'string' },
     { name: 'to_address', type: 'string' },
-    { name: 'start_time', type: 'string' },
+    { name: 'start_time', type: 'Timestamp' },
     // { name: 'locked_periods', type: 'Period[]' },
     { name: 'vesting_periods', type: 'Period[]' },
     { name: 'merge', type: 'bool' },
+  ],
+  Timestamp: [
+    { name: 'nanos', type: 'uint256' },
+    { name: 'seconds', type: 'uint256' },
   ],
   Period: [
     { name: 'length', type: 'string' },
@@ -31,12 +35,17 @@ export function createMsgVesting(
   }[],
   merge: boolean = false,
 ) {
+  const time = new Date(startTime).getTime()
+  const tp = {
+    nanos: (time % 1000) * 1e6,
+    seconds: Math.round(time / 1000),
+  }
   return {
     type: 'evmos.vesting.v1.MsgCreateClawbackVestingAccount',
     value: {
       from_address: fromAddress,
       to_address: toAddress,
-      start_time: startTime,
+      start_time: tp,
       // lockup_periods: [],
       vesting_periods: vestingPeriods,
       merge,
