@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/astraprotocol/astrajs/compare/asa-eip712@0.5.0...asa-eip712@0.5.1) (2022-06-03)
+
+### Bug Fixes
+
+* vesting type eip712 ([144173d](https://github.com/astraprotocol/astrajs/commit/144173dcc59e4d40bfd721517f1d12961fc77e8f))
+
 # 0.5.0 (2022-06-02)
 
 ### Bug Fixes
